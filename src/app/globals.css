@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.sticky-top {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  /* Set your background color */
+}
