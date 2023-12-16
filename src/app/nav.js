@@ -27,7 +27,7 @@ const links = [
 
 const Nav = () => {
     return (
-        <nav className='hidden lg:flex lg:sticky lg:top-10 lg:bg-gray-100 rounded-md h-80 w-48 ml-40 z-50 flex-col justify-between pt-3'>
+        <nav className='hidden lg:flex lg:sticky lg:top-10 lg:bg-gray-100 rounded-md h-80 w-48 xl:ml-32 ml-10 z-50 flex-col justify-between pt-3'>
             <div className='flex flex-col justify-between'>
                 {links.map(({ id, link }) => (
                     <p key={id} className='px-4 cursor-pointer my-3 capitalize font-medium  text-gray-700 hover:text-sky-800 duration-200'>
