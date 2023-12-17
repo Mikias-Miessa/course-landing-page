@@ -5,6 +5,7 @@ import Hero from './hero'
 import Nav from './nav'
 import Instructors from './instructors'
 import FAQ from './faq'
+import Tuition from './tuition'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
           <OverView />
           <Curriculum /> 
           <Instructors />
+          <Tuition/>
           <FAQ/>
     </div>
   )

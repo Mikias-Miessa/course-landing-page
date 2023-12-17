@@ -58,13 +58,15 @@ const Curriculum = () => {
       <div className=' grid lg:grid-cols-8 md:grid-cols-10 bg-gray-50'>
         <div className='lg:col-span-2 md:col-span-1 '></div>
         <div className='lg:col-span-5  md:col-span-9 py-16 grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-5 md:gap-0'>
-          <div className='lg:col-span-1 flex justify-center'>
+          <div className='lg:col-span-1 flex justify-center items-center '>
             <Image src={male} width={150} height={150} alt='user image' className='rounded-full '/>
           </div>
-          <div className='lg:col-span-2 px-6 text-gray-500 tracking-wide font-semibold flex items-center '>
+          <div className='lg:col-span-2 px-6 text-gray-500 tracking-wide font-semibold flex flex-col justify-start '>
                 <em>“The Tech Entrepreneurship Bootcamp exceeded my expectations! The hands-on learning approach and expert instructors
                             fueled my innovation. Networking opportunities were a game-changer, connecting me with industry leaders. Ready to build,
-                            innovate, and succeed? This bootcamp is the perfect launchpad!”</em>
+              innovate, and succeed? This bootcamp is the perfect launchpad!”</em>
+            <h5 className='font-bold text-sm my-2 text-black'>Former Tech Entrepreneurship Bootcamp Student</h5>
+            <h5 className='font-normal text-sm  text-black'>Mikias Walelign</h5>
           </div>
         
         </div>
