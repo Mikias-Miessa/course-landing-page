@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import OverView from './overview'
 import Curriculum from './curriculum'
@@ -6,17 +7,21 @@ import Nav from './nav'
 import Instructors from './instructors'
 import FAQ from './faq'
 import Tuition from './tuition'
+import Certificate from './cetrificate'
+import FormToPdfConverter from './pdf'
 
-const page = () => {
+const page = ({training}) => {
   return (
     <div className='bg-white w-full'>
-          <Hero />
+          {/* <Hero training={training} />
           <Nav/>
           <OverView />
           <Curriculum /> 
           <Instructors />
           <Tuition/>
-          <FAQ/>
+          <FAQ/> */}
+      {/* <Certificate/> */}
+      <FormToPdfConverter/>
     </div>
   )
 }
